@@ -8,3 +8,5 @@ statement = "I am new to JavaScript";
 console.log(statement);
 
 console.log("I am learning stuff everyday");
+
+// New Change
