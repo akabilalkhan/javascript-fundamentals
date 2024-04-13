@@ -1,0 +1,39 @@
+// TASK 1
+
+// Function to compare to paramters
+function isEqual(p1, p2) {
+  if (p1 == p2) console.log("Both parameters are equal");
+  else console.log("Both Paramters are not equal");
+}
+isEqual(1, 1);
+isEqual(1, 2);
+isEqual("Hi", "Hi");
+isEqual("Hi", "hi");
+
+// TASK 2
+function gradeDescription(grade) {
+  switch (grade) {
+    case "A":
+      console.log("Average");
+      break;
+    case "G":
+      console.log("Good");
+      break;
+    case "E":
+      console.log("Excellent");
+      break;
+    case "V":
+      console.log("Very Good");
+      break;
+    case "F":
+      console.log("Fail");
+      break;
+    default:
+      console.log("Not a valid grade");
+      break;
+  }
+}
+gradeDescription("A");
+gradeDescription("E");
+gradeDescription("F");
+gradeDescription("a");
