@@ -2,7 +2,7 @@
 const a = 34_038;
 const b = 45_838.8734;
 const c = 0b0110_0010_1011;
-const d = 0x174c0;
+const d = 0x174C0;
 const e = -895_612;
 
 // Console log statements to display the output of each variable
@@ -13,7 +13,7 @@ console.log(d); // Output: 95680
 console.log(e); // Output: -895612
 
 // Task 2: Assigning literals for hexadecimal, binary, and octal systems and verifying they all display 29
-const hexadecimalValue = 0x1d;
+const hexadecimalValue = 0x1D;
 const binaryValue = 0b11101;
 const octalValue = 0o35;
 
