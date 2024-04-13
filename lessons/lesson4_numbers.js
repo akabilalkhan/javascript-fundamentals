@@ -30,3 +30,5 @@ let ee = 0b1010_0001; // binary
 let ff = 0xa0_b0_c0; // hexa
 console.log(dd);
 console.log(ff);
+
+// static properties 
