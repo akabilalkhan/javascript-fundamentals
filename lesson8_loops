@@ -1,0 +1,9 @@
+function whileExample() {
+  let value = 0;
+  while (value < 10) {
+    console.log(value);
+    value++;
+  }
+}
+
+whileExample();
