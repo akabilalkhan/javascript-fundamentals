@@ -9,4 +9,8 @@ console.log(statement);
 
 console.log("I am learning stuff everyday");
 
+const myFunc = () => 1 + 1;
+
+console.log(myFunc());
+
 // New Change
